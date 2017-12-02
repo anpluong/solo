@@ -1,0 +1,25 @@
+body {
+    background-color:DodgerBlue;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.search {
+    width: 70%;
+    position: relative;
+    margin: auto;
+}
+
+.wrap{
+    width: 80%;
+    margin: auto;
+    background: rgba(255,255,255,.20);
+    padding: 15px;
+    float: center;
+    text-align: center;    
+}
+
+.stockSymbol {
+    width: 80%;
+    text-align: center;
+    margin: 0 auto;
+}
