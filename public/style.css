@@ -9,7 +9,7 @@ body {
     margin: auto;
 }
 
-.wrap{
+#wrap{
     width: 80%;
     margin: auto;
     background: rgba(255,255,255,.20);
@@ -23,3 +23,23 @@ body {
     text-align: center;
     margin: 0 auto;
 }
+
+#returnedStock {
+    padding: 50px;
+    background: rgba(0,0,0,0.5);
+}
+
+.output_container {
+    width: 1000px;
+    margin: 40px;
+    background: rgba(255,255,255,.40);
+    padding: 15px;
+    border-radius: 15px;
+    
+}
+
+.container {
+    display: flex;
+    border: 5px solid black;
+}
+
