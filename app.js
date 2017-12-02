@@ -11,7 +11,7 @@ appServer.use(bodyParser.urlencoded({extended : true}));
 appServer.use(express.static('public'));
 
 appServer.post('/', (req, res) => {
-    console.log("hello");
+    //req.body is an object
     res.send(req.body);
 })
 

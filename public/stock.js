@@ -33,15 +33,14 @@ $(document).ready(function() {
               
                     $.ajax({
                         type: "POST",
-                        url: `http://localhost:3000`,
+                        url: `http://localhost:3000/`,
                         data: {"stockSymbol": stockSymbol, 
                                "openStockPrice": openStockPrice,
                                 "currentStockPrice": currentStockPrice,
                                 "stockDate": shortTimeDate[0]},
                         dataType: 'json',
                         success: function(data) {
-                            console.log("success");
-                            console.log(data);
+                            console.log(data)
                         }
                     })
 
