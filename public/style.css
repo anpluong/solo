@@ -40,6 +40,11 @@ body {
 
 .container {
     display: flex;
-    border: 5px solid black;
+    border: 1px solid black;
+    justify-content: space-around;
 }
 
+/* .iconButton {
+    width: 26px;
+    height: 20px;
+} */
